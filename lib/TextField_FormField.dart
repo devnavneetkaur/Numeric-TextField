@@ -1,7 +1,7 @@
-part of 'bassure_textfield.dart';
+part of 'generic_textfield.dart';
 
 // ignore: camel_case_types
-class Bassure_TextField extends StatefulWidget {
+class generic_TextField extends StatefulWidget {
   final bool enable;
   final String label;
   final int maxLength;
@@ -26,7 +26,7 @@ class Bassure_TextField extends StatefulWidget {
   final bool maxLengthEnforcement;
   final TextEditingController textEditingController;
 
-  const Bassure_TextField({
+  const generic_TextField({
     Key key,
     this.containerWidth,
     this.containerMargin,
@@ -53,11 +53,11 @@ class Bassure_TextField extends StatefulWidget {
     this.labelMargin,
   }) : super(key: key);
   @override
-  _Bassure_TextFieldState createState() => _Bassure_TextFieldState();
+  _generic_TextFieldState createState() => _generic_TextFieldState();
 }
 
 // ignore: camel_case_types
-class _Bassure_TextFieldState extends State<Bassure_TextField> {
+class _generic_TextFieldState extends State<generic_TextField> {
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -1,4 +1,4 @@
-part of 'bassure_textfield.dart';
+part of 'generic_textfield.dart';
 
 double getWidth(BuildContext context) {
   return MediaQuery.of(context).size.width;

@@ -1,6 +1,6 @@
-# bassure_textfield
+# generic_textfield
 
-A new bassure textfield for both android and iOS which helps develeopers in creating numeric textfield.
+A new generic textfield for both android and iOS which helps develeopers in creating numeric textfield.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ add the dependency to your pubspec.yaml file.
   dependencies:
     flutter:
       sdk: flutter
-    bassure_textfield:
+    generic_textfield:
 
 
   ###How to use

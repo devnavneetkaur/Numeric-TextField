@@ -1,7 +1,6 @@
-name: bassure_textfield
+name: generic_textfield
 description: A new generic textfield for entering numbers
 version: 0.0.1
-author: Navneet Kaur
 homepage: https://github.com/devnavneetkaur/Numeric-TextField
 
 environment:
